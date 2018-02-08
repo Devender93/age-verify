@@ -1,0 +1,252 @@
+/*
+CSS for AgeVerify Basic Options page
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
+
+#ageverify th,
+#ageverify td {
+	width: 100%;
+	display: table-row;
+}
+
+#ageverify th {
+	font-size: 1.25em;
+	font-weight: normal;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+
+#ageverify th {
+	border-bottom: 15px solid transparent;
+}
+
+#ageverify label,
+#ageverify #galleryButtons a {
+	display: inline-block;
+	color: #fff;
+	background: #00a0d2;
+	padding: 5px 15px;
+	margin: 0 10px 15px 0;
+	cursor:pointer;
+}
+
+#ageverify #toggle-on {
+	background-color: none;
+	width: 100px;
+	height: 35px;
+	background: url( 'toggle.png' ) center -50px no-repeat;
+	text-indent: 200%; 
+	white-space: nowrap; 
+	overflow: hidden;
+}
+
+#ageverify #ageverify-gallery label {
+	padding: 2px;
+}
+
+#ageverify input:checked + label,
+#ageverify #galleryButtons #btnAll {
+	background: #82c240;
+}
+
+#ageverify input:checked + #toggle-on {
+	background-position: center top;
+}
+
+#ageverify #ageverify-gallery input:checked + label {
+	padding: 4px;
+}
+
+#ageverify input[type="radio"],
+#ageverify input[type="checkbox"] { /* HIDE RADIO BUTTONS */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+
+#ageverify #ageverify-gallery .galleryItem {
+	display: inline-block;
+	width: 30%;
+}
+
+#ageverify #ageverify-gallery .galleryItem img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#ageverify #submit {
+	font-size: 1.9em;
+	padding: .5em 1em;
+	height: auto;
+}
+
+/*Sidebar*/
+
+#ageverify-sidebar .box {
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+#ageverify-sidebar .box header {
+	background: #32373c;
+	color: #fff;
+	margin: -15px;
+	position: relative;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+#ageverify-sidebar .box.go-pro header {
+	font-size: 1.6em;
+	text-align: center;
+}
+
+#ageverify-sidebar .box.go-pro p {
+	text-align: center;
+}
+
+#ageverify-sidebar .box.go-pro li {
+	color: #000;
+	margin-left: 1.5em;
+	list-style-image: url('check.png');
+}
+
+#ageverify-sidebar .box.resources li {
+	margin-left: 1.5em;
+	list-style-image: url('arrow.png');
+}
+
+#ageverify-sidebar .logo {
+	text-align: center;
+}
+
+#ageverify-customize {
+	background: #fff;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+#ageverify-customize-header {
+	padding-bottom: 70px;
+	background: url('customize-bottom.png') bottom center no-repeat;
+}
+
+#ageverify-customize-header h2 {
+	font-family: 'Antic Slab', Georgia, serif;
+	color: #82c240;
+	font-size: 34px;
+	text-align: center;
+}
+
+#ageverify-customize-header p {
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+	color: #747474;
+	width: 70%;
+	margin: 20px auto;
+}
+
+#ageverify-customize:after {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+#ageverify-custom-features {
+	width: 28%;
+	float: left;
+	border: 1px dotted #82c240;
+	background: #F8F8F8;
+	padding: 0 8px;
+}
+
+#ageverify-custom-features h3,
+#ageverify-custom-features li {
+	background: #fff;
+	padding: 5px 8px;
+	text-align: center;
+	border: 1px solid #ededed;
+	border-bottom: none;
+	margin: 0;
+}
+
+#ageverify-custom-features h3 {
+	font-family: 'Antic Slab', Georgia, serif;
+ margin-top: 8px; 
+  color: #333;
+  padding: 20px 0;
+  font-size: 26px;
+  font-weight: normal;
+}
+
+#ageverify-custom-features li {
+	padding: 10px;
+}
+
+#ageverify-custom-features ul {
+ margin-top: 0; 
+ color: #0a700a;
+ border-bottom: 1px solid #ededed;
+}
+
+#ageverify-custom-examples {
+ width: 66%;
+  float: right;
+}
+
+#ageverify-custom-examples .caption a {
+	color: #333;
+	text-decoration: none;
+}
+
+#ageverify-custom-examples .caption a:hover {
+	color: #82c240;
+}
+
+#ageverify-custom-examples div {
+ width: 47%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px 5px 30px 5px;
+  border-bottom: 1px dotted #e0dede;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+
+#ageverify-custom-examples div:nth-child(even) {
+	margin-right: 0;
+}
+
+#ageverify-custom-examples div img {
+ max-width: 100%;
+  height: auto;
+  border: 1px solid #82c240;
+  box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+#AVCustomLink{
+	padding:5px;
+	background-color:#009900;
+	color:#fff;
+	text-align:center;
+	font-size:24px;}
+
+@media screen and (max-width: 720px) {
+
+	#ageverify-custom-examples {
+ width: 45%;
+}
+
+#ageverify-custom-features {
+	width: 45%;
+}
+
+#ageverify-custom-examples div {
+ width: 100%;
+
+}
+}

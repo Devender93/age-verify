@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-05-01 11:55-0800\n"
+"PO-Revision-Date: 2015-05-01 11:55-0800\n"
+"Last-Translator: Morgan <morgan@wpalchemists.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/aside.php:9
+msgid "Ready to go Pro?"
+msgstr ""
+
+#: ../includes/aside.php:11
+msgid "Additional perks you'll get with AgeVerify Pro"
+msgstr ""
+
+#: ../includes/aside.php:13
+msgid "No Ads! Woo Hoo!"
+msgstr ""
+
+#: ../includes/aside.php:14
+msgid "Longer Cookie Duration"
+msgstr ""
+
+#: ../includes/aside.php:15
+msgid "Underage redirects to Google"
+msgstr ""
+
+#: ../includes/aside.php:18
+msgid "Upgrade to Pro Now"
+msgstr ""
+
+#: ../includes/aside.php:24
+msgid "Resources"
+msgstr ""
+
+#: ../includes/aside.php:27
+msgid "Contact Us"
+msgstr ""
+
+#: ../includes/aside.php:32
+msgid "Now accepting 5-star reviews!  It only takes seconds and it means a lot."
+msgstr ""
+
+#: ../includes/aside.php:34
+msgid "Rate This Plugin Now"
+msgstr ""
+
+#: ../includes/templates.php:5
+msgid "Vaping 2"
+msgstr ""
+
+#: ../includes/templates.php:11
+msgid "Wine Shop"
+msgstr ""
+
+#: ../includes/templates.php:17
+msgid "Single Malt"
+msgstr ""
+
+#: ../includes/templates.php:23
+msgid "Opaque (your website)"
+msgstr ""
+
+#: ../includes/templates.php:29
+msgid "Cheers"
+msgstr ""
+
+#: ../includes/templates.php:35 ../options.php:147
+msgid "Beer"
+msgstr ""
+
+#: ../includes/templates.php:41
+msgid "Bottled Beer"
+msgstr ""
+
+#: ../includes/templates.php:47
+msgid "Wine Glasses"
+msgstr ""
+
+#: ../includes/templates.php:53
+msgid "Cigars"
+msgstr ""
+
+#: ../includes/templates.php:59
+msgid "Vodka"
+msgstr ""
+
+#: ../includes/templates.php:65
+msgid "Twisted Vines"
+msgstr ""
+
+#: ../includes/templates.php:71
+msgid "Bottles"
+msgstr ""
+
+#: ../includes/templates.php:77
+msgid "Hops"
+msgstr ""
+
+#: ../includes/templates.php:83
+msgid "Beer Steins"
+msgstr ""
+
+#: ../includes/templates.php:89
+msgid "Vaping"
+msgstr ""
+
+#: ../includes/templates.php:95 ../options.php:151
+msgid "Marijuana"
+msgstr ""
+
+#: ../includes/templates.php:101
+msgid "Female Silhouette"
+msgstr ""
+
+#: ../includes/templates.php:107
+msgid "Male Silhouette"
+msgstr ""
+
+#: ../options.php:76
+msgid "Settings"
+msgstr ""
+
+#: ../options.php:83
+msgid "Enable or Disable AgeVerify"
+msgstr ""
+
+#: ../options.php:91
+msgid "Step 1 - Select a Template"
+msgstr ""
+
+#: ../options.php:99
+msgid "Step 2 - Select Language"
+msgstr ""
+
+#: ../options.php:107
+msgid "Step 3 - Select Age"
+msgstr ""
+
+#: ../options.php:115
+msgid "Step 4 - Select Method"
+msgstr ""
+
+#: ../options.php:133
+msgid "On"
+msgstr ""
+
+#: ../options.php:144
+msgid "Sort by: "
+msgstr ""
+
+#: ../options.php:145
+msgid "Display All"
+msgstr ""
+
+#: ../options.php:146
+msgid "Most Popular"
+msgstr ""
+
+#: ../options.php:148
+msgid "Spirits"
+msgstr ""
+
+#: ../options.php:149
+msgid "Wine"
+msgstr ""
+
+#: ../options.php:150
+msgid "Tobacco"
+msgstr ""
+
+#: ../options.php:152
+msgid "Adult"
+msgstr ""
+
+#: ../options.php:177
+msgid "English"
+msgstr ""
+
+#: ../options.php:181
+msgid "French"
+msgstr ""
+
+#: ../options.php:185
+msgid "German"
+msgstr ""
+
+#: ../options.php:189
+msgid "Spanish"
+msgstr ""
+
+#: ../options.php:193
+msgid "Czech"
+msgstr ""
+
+#: ../options.php:240
+msgid "Date of Birth Input: (Month / Day / Year)"
+msgstr ""
+
+#: ../options.php:244
+msgid "Over Age / Under Age (Prompt)"
+msgstr ""
+
+#: ../options.php:272
+msgid "AgeVerify Configuration"
+msgstr ""
